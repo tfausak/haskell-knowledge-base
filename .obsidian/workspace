@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Report/Haskell 98.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Report/Haskell 98.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,15 @@
   },
   "active": "012836e25e6ee9b3",
   "lastOpenFiles": [
-    "Untitled.md"
+    "Report/Haskell 98.md",
+    "Syntax.md",
+    "Haskell.md",
+    "Haskell Language Report.md",
+    "Report/Haskell 2010.md",
+    "README.md",
+    "Syntax/Operators.md",
+    "Syntax/where.md",
+    "Syntax/let-in.md",
+    "Syntax/if-then-else.md"
   ]
 }
