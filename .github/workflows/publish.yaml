@@ -1,0 +1,14 @@
+name: Publish
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: node .github/workflows/publish.js
+        env:
+          OBSIDIAN_SITE: ${{ secrets.OBSIDIAN_SITE }}
+          OBSIDIAN_TOKEN: ${{ secrets.OBSIDIAN_TOKEN }}
