@@ -2,7 +2,7 @@
 
 This is a knowledge map about [Haskell](https://www.haskell.org) powered by [Obsidian][].
 
-This project was inspired by Kowainik's [Haskell Knowledge Map](https://kowainik.github.io/images/Haskell_Knowledge_Map.png). To get started, consider going to the [[Haskell]] page.
+This project was inspired by Kowainik's [Haskell Knowledge Map](https://kowainik.github.io/images/Haskell_Knowledge_Map.png), which was announced here: <https://twitter.com/kowainik/status/1371511408198889478>. To get started, consider going to the [[Haskell]] page.
 
 ## Browsing
 
