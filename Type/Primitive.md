@@ -1,0 +1,3 @@
+- [[Char]]
+- [[Bool]]
+	- TODO: This isn't really a primitive.
