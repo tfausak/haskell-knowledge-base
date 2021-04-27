@@ -1,0 +1,1 @@
+<https://haskellweekly.news>
