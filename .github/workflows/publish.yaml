@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: node .github/workflows/publish.js
-        env:
-          OBSIDIAN_SITE: ${{ secrets.OBSIDIAN_SITE }}
-          OBSIDIAN_TOKEN: ${{ secrets.OBSIDIAN_TOKEN }}
+      - uses: tfausak/obsidian-publish-action@v1
+        with:
+          site: ${{ secrets.OBSIDIAN_SITE }}
+          token: ${{ secrets.OBSIDIAN_TOKEN }}
