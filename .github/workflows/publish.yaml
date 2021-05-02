@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - obsidian-publish-action # TODO
 jobs:
   publish:
     runs-on: ubuntu-latest
