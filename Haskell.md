@@ -1,4 +1,4 @@
-Haskell is a purely function language. It is defined by the [[Haskell Language Report]]. It was designed by a committee with the following goals:
+Haskell is a purely function language. It is defined by the [[Report]]. It was designed by a committee with the following goals:
 
 1.  It should be suitable for teaching, research, and applications, including building large systems.
 2.  It should be completely described via the publication of a formal syntax and semantics.
