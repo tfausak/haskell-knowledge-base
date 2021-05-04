@@ -1,1 +1,3 @@
 - [[Haskell Weekly]]
+- [[Haskell Foundation]]
+- [[Haskell.org]]

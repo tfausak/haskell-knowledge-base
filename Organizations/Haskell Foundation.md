@@ -1,0 +1,1 @@
+<https://haskell.foundation>
