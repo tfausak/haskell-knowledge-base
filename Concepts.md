@@ -1,0 +1,8 @@
+- [[Immutability]]
+- [[Purity]]
+- [[Higher-order functions]]
+- [[Pattern matching]]
+- [[Recursion]]
+- [[Polymorphism]]
+- [[Algebraic data types]]
+- [[Totality]]
