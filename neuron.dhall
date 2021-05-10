@@ -1,7 +1,7 @@
 { siteTitle = "Haskell KB"
-, siteBaseUrl = Some "https://srid.github.io/obsidian-haskell"
+, siteBaseUrl = Some "https://taylor.fausak.me/haskell-knowledge-base"
 , theme = "purple"
 -- This is used in the "edit" button
-, editUrl = Some "https://github.com/srid/obsidian-haskell/edit/master/"
+, editUrl = Some "https://github.com/tfausak/haskell-knowledge-base/edit/main/"
 , plugins = [ "neuronignore", "links", "uptree", "feed", "dirtree" ]
 }
