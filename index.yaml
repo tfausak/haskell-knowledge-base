@@ -1,0 +1,12 @@
+# Used by https://github.com/srid/emanote
+template:
+  # Tailwind color theme (as in, `bg-${theme}-400`)
+  theme: purple
+  # Favicon & logo URL
+  iconUrl: favicon.svg
+
+page:
+  siteTitle: "Haskell KB"
+  siteName: HaskellKB
+  description: |
+    Haskell Knowledgebase Zettelkasten Wiki
