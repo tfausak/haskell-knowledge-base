@@ -1,5 +1,6 @@
 # Used by https://github.com/srid/emanote
 template:
+  baseUrl: https://taylor.fausak.me/haskell-knowledge-base/
   # Tailwind color theme (as in, `bg-${theme}-400`)
   theme: purple
   # Favicon & logo URL

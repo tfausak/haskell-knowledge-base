@@ -1,8 +1,9 @@
 This is a knowledge map about [[Haskell]], inspired by [[Kowainik]]'s [Haskell Knowledge Map][]. 
 
-You can browse this knowledge map at <https://publish.obsidian.md/haskell>, or at one of the unofficial frontends below,
+You can browse this knowledge map at 
 
-- [Neuron](https://taylor.fausak.me/haskell-knowledge-base/)
+- The dynamic Obsidian view: <https://publish.obsidian.md/haskell>, or 
+- A SEO-friendly static site: <https://taylor.fausak.me/haskell-knowledge-base/>
 
 If you are interested in contributing to this, check out the [[CONTRIBUTING]] page.
 

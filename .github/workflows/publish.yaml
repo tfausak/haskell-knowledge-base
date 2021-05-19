@@ -1,4 +1,4 @@
-name: Publish
+name: "Publish Obsidian site"
 on:
   push:
     branches:
