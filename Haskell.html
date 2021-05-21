@@ -147,6 +147,43 @@ twindObserve.observe(document.documentElement)</script>
       </svg>
     
   
+    <a class='hover:underline' href='Community'>
+      Community
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+          
+            <!-- Variable bindings for this tree-->
+
+  
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
     <a class='hover:underline' href='Companies'>
       Companies
     </a>
@@ -604,6 +641,16 @@ twindObserve.observe(document.documentElement)</script>
     <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
     <ul class='space-y-1'>
       
+        <li><a class='text-purple-600 font-bold hover:bg-purple-50' href='Community/Matrix'>
+            Haskell Matrix Community
+          </a>
+          <div class='mb-4 text-sm text-gray-500'>
+            <!-- TODO: How to style the backlinks list item element? Or render each separately?
+                    -->
+            <div><p>To visit the <a href='Haskell' title='WikiLinkNormal' class='text-black-600 font-bold hover:bg-gray-50'>Haskell</a> community chat rooms on Matrix, visit: <a href='https://matrix.to/#/#haskell-space:matrix.org' title class='text-black-600 hover:underline' target='_blank' rel='noopener'>https://matrix.to/#/#haskell-space:matrix.org</a></p></div>
+          </div>
+        </li>
+      
         <li><a class='text-purple-600 font-bold hover:bg-purple-50' href='Data%20Types'>
             Data Types
           </a>
@@ -683,7 +730,7 @@ twindObserve.observe(document.documentElement)</script>
 
         <footer class='flex items-center justify-center my-8 space-x-4 text-center text-gray-500'>
           <div>
-            Powered by <a class='font-bold' href='https://github.com/srid/emanote'>Emanote</a>
+            Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
           </div>
         </footer>
       </div>
