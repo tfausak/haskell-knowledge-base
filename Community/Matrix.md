@@ -1,4 +1,4 @@
-# Haskell Matrix Community
+# Matrix Space
 
 To visit the [[Haskell]] community chat rooms on Matrix, visit: https://matrix.to/#/#haskell-space:matrix.org
 
