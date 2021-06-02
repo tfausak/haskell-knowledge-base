@@ -1,0 +1,1 @@
+[Cabal](https://www.haskell.org/cabal/) is a system for building and packaging Haskell libraries and programs. The word "cabal" itself can refer to one of [the 4 things](https://gist.github.com/merijn/8152d561fb8b011f9313c48d876ceb07).
