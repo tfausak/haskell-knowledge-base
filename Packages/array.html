@@ -6,19 +6,21 @@
   <title>
     array – Haskell KB
   </title>
-  <with var='page'>
-    <meta property='og:description' content='${value:description}' />
-    <meta property='og:site_name' content='${value:siteName}' />
-  </with>
   <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>twind.setup({})
 twindObserve.observe(document.documentElement)</script>
   
     
+      <meta property='og:description' content='Haskell Knowledgebase Zettelkasten Wiki
+' />
+      <meta property='og:site_name' content='HaskellKB' />
+    
+    
       <base href='https://taylor.fausak.me/haskell-knowledge-base/' />
       <link href='favicon.svg' rel='icon' />
     
+    <!-- Syntax highlighting --><link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
   
-  <snippet var='page.headHtml'></snippet>
   <head-extra></head-extra>
 </head>
 
@@ -30,7 +32,7 @@ twindObserve.observe(document.documentElement)</script>
   
     <div class='container mx-auto xl:max-w-screen-lg'>
       <!-- Header row-->
-      <div class='grid grid-cols-12 px-2'>
+      <div class='grid grid-cols-12 md:px-2'>
         <!-- Logo column -->
         <div class='hidden md:mr-4 md:block md:col-span-3'>
           <div class='flex items-end h-full pl-2 mt-2 space-x-2'>
@@ -45,12 +47,41 @@ twindObserve.observe(document.documentElement)</script>
         </div>
         <!-- Title column -->
         <div class='col-span-12 md:col-span-9'>
+          
+  <div class='w-full text-gray-700'>
+    <div class='flex justify-left'>
+      <div class='bg-purple-100 md:rounded-b-lg w-full py-2 px-2 md:w-auto md:py-0 md:px-0'>
+        <ul class='flex flex-wrap text-lg md:text-sm'>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href=''>
+                Haskell KB
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='Packages'>
+                Packages
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
 
-          <div class='flex items-center justify-center'>
-            <h1 class='pb-2 mt-2 mb-2 text-6xl text-center'>
-              array
-            </h1>
-          </div>
+
+<h1 class='flex items-center justify-center mt-2 text-4xl font-extrabold text-black bg-white'>
+  <a>
+    array
+  </a>
+</h1>
         </div>
       </div>
 
@@ -66,11 +97,14 @@ twindObserve.observe(document.documentElement)</script>
               </svg>
             </a>
           </div>
-          <div class='pt-1 pb-2 rounded bg-purple-50'>
+          <div class='pt-1 pb-2 rounded bg-purple-50 border-2 shadow-lg'>
             
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -108,6 +142,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -119,7 +156,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='CONTRIBUTING'>
@@ -140,6 +180,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -177,6 +220,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -214,6 +260,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -251,6 +300,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -288,6 +340,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -299,7 +354,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='Haskell'>
@@ -320,6 +378,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -331,7 +392,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='LICENSE'>
@@ -352,6 +416,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -389,6 +456,11 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+      
+      
+    
+
 
 
   
@@ -406,7 +478,7 @@ twindObserve.observe(document.documentElement)</script>
       </svg>
       
   
-    <a class='hover:underline' href='Packages'>
+    <a class='font-bold hover:underline' href='Packages'>
       Packages
     </a>
     
@@ -423,6 +495,7 @@ twindObserve.observe(document.documentElement)</script>
   
   
 
+
   
 
 
@@ -432,10 +505,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'></path></svg> 
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        </path>
+      </svg>
       
   
-    <a class='font-bold text-purple-600 hover:text-black' href='Packages/array'>
+    <a class='font-bold text-purple-600 hover:underline' href='Packages/array'>
       array
     </a>
     
@@ -453,6 +529,9 @@ twindObserve.observe(document.documentElement)</script>
       <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -464,7 +543,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='Packages/bytestring'>
@@ -485,6 +567,9 @@ twindObserve.observe(document.documentElement)</script>
       <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -496,7 +581,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='Packages/containers'>
@@ -517,6 +605,9 @@ twindObserve.observe(document.documentElement)</script>
       <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -528,7 +619,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='Packages/text'>
@@ -549,6 +643,9 @@ twindObserve.observe(document.documentElement)</script>
       <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -560,7 +657,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='Packages/unordered-containers'>
@@ -581,6 +681,9 @@ twindObserve.observe(document.documentElement)</script>
       <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -592,7 +695,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='Packages/vector'>
@@ -616,6 +722,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -653,6 +762,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -664,7 +776,10 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'></path></svg>
+      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
     
   
     <a class='hover:underline' href='README'>
@@ -685,6 +800,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -722,6 +840,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -759,6 +880,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -796,6 +920,9 @@ twindObserve.observe(document.documentElement)</script>
               <!-- Variable bindings for this tree-->
 
   
+    
+  
+
 
 
   
@@ -834,26 +961,30 @@ twindObserve.observe(document.documentElement)</script>
         </div>
         <!-- Main body column -->
         <div class='col-span-12 md:col-span-9'>
-          <p class='my-3'><a href='https://hackage.haskell.org/package/array' title class='text-purple-600 hover:underline' target='_blank' rel='noopener'>https://hackage.haskell.org/package/array</a></p><p class='my-3'><a href='Packages/vector' title='WikiLinkNormal' class='text-purple-600 font-bold hover:bg-purple-50'>vector</a></p>
+          <div class='overflow-auto'>
+            <p class='my-3'><a href='https://hackage.haskell.org/package/array' title class='text-purple-600 hover:underline' target='_blank' rel='noopener'>https://hackage.haskell.org/package/array</a></p><p class='my-3'><a href='Packages/vector' title='WikiLinkNormal' class='text-purple-600 font-bold hover:underline'>vector</a></p>
+          </div>
           
   <div class='p-4 mt-8 bg-gray-100 rounded'>
     <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
     <ul class='space-y-1'>
       
-        <li><a class='text-purple-600 font-bold hover:bg-purple-50' href='Packages'>
+        <li>
+          <a class='text-purple-600 font-bold hover:bg-purple-50' href='Packages'>
             Packages
           </a>
-          <div class='mb-4 text-sm text-gray-500'>
+          <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
             <div><a href='Packages/array' title='WikiLinkNormal' class='text-black-600 font-bold hover:bg-gray-50'>array</a></div>
           </div>
         </li>
       
-        <li><a class='text-purple-600 font-bold hover:bg-purple-50' href='Packages/vector'>
+        <li>
+          <a class='text-purple-600 font-bold hover:bg-purple-50' href='Packages/vector'>
             vector
           </a>
-          <div class='mb-4 text-sm text-gray-500'>
+          <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
             <div><p><a href='Packages/array' title='WikiLinkNormal' class='text-black-600 font-bold hover:bg-gray-50'>array</a></p></div>
@@ -861,41 +992,6 @@ twindObserve.observe(document.documentElement)</script>
         </li>
       
     </ul>
-  </div>
-
-
-          
-  <div class='w-full p-4 mt-4 text-gray-700 bg-purple-500 rounded'>
-    <div class='flex justify-center'>
-      <div class='w-full py-2 rounded'>
-        <ul class='flex text-sm lg:text-base'>
-          
-            <li class='inline-flex items-center'>
-              <a class='px-1 font-bold bg-gray-100 rounded' href=''>
-                Haskell KB
-              </a>
-              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
-                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
-              </svg>
-            </li>
-          
-            <li class='inline-flex items-center'>
-              <a class='px-1 font-bold bg-gray-100 rounded' href='Packages'>
-                Packages
-              </a>
-              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
-                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
-              </svg>
-            </li>
-          
-          <li class='inline-flex items-center text-gray-200 font-bold'>
-            <a>
-              array
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
 
 
@@ -910,8 +1006,10 @@ twindObserve.observe(document.documentElement)</script>
           </note-meta>
 
           <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
-  <div>
-    Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
+  <div class='flex space-x-2'>
+    <div><a class='font-bold' href='@index'>@Index</a></div>
+    <div>|</div>
+    <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a></div>
   </div>
 </footer>
         </div>
