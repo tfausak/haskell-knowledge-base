@@ -20,6 +20,7 @@ twindObserve.observe(document.documentElement)</script>
     
     <!-- Syntax highlighting --><link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
+
   
   <head-extra></head-extra>
 </head>
@@ -30,7 +31,7 @@ twindObserve.observe(document.documentElement)</script>
   <!-- DoNotFormat -->
 
   
-    <div class='container mx-auto xl:max-w-screen-lg'>
+    <div class='container mx-auto'>
       <!-- Header row-->
       <div class='grid grid-cols-12 md:px-2'>
         <!-- Logo column -->
@@ -88,16 +89,22 @@ twindObserve.observe(document.documentElement)</script>
       <!-- Main row-->
       <div class='grid grid-cols-12 px-2'>
         <!-- Sidebar column -->
-        <div class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
-          <div class='float-right p-2 text-gray-500 hover:text-purple-700'>
+        <nav class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
+          <div class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
+            <a href='@tags' title='View tags'>
+              <svg class='w-4 h-4 hover:text-purple-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
+                </path>
+              </svg>
+            </a>
             <a href='@index' title='Expand full tree'>
-              <svg class='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+              <svg class='w-4 h-4 hover:text-purple-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
                 </path>
               </svg>
             </a>
           </div>
-          <div class='pt-1 pb-2 rounded bg-purple-50 border-2 shadow-lg'>
+          <div class='pt-1 pb-2 rounded bg-purple-50 border-2 border-purple-200 shadow-inner'>
             
               <!-- Variable bindings for this tree-->
 
@@ -116,12 +123,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Books'>
+    <a class='hover:underline truncate' title='Books' href='Books'>
       Books
     </a>
     
@@ -156,13 +163,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='CONTRIBUTING'>
+    <a class='hover:underline truncate' title='CONTRIBUTING' href='CONTRIBUTING'>
       CONTRIBUTING
     </a>
     
@@ -194,12 +201,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Community'>
+    <a class='hover:underline truncate' title='Community' href='Community'>
       Community
     </a>
     
@@ -234,12 +241,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Companies'>
+    <a class='hover:underline truncate' title='Companies' href='Companies'>
       Companies
     </a>
     
@@ -274,12 +281,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Concepts'>
+    <a class='hover:underline truncate' title='Concepts' href='Concepts'>
       Concepts
     </a>
     
@@ -316,13 +323,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
         <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
         <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
       </svg>
       
   
-    <a class='font-bold hover:underline' href='Data%20Types'>
+    <a class='font-bold hover:underline truncate' title='Data Types' href='Data%20Types'>
       Data Types
     </a>
     
@@ -351,13 +358,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/Bool'>
+    <a class='hover:underline truncate' title='Bool' href='Data%20Types/Bool'>
       Bool
     </a>
     
@@ -389,13 +396,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/Char'>
+    <a class='hover:underline truncate' title='Char' href='Data%20Types/Char'>
       Char
     </a>
     
@@ -427,13 +434,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/Double'>
+    <a class='hover:underline truncate' title='Double' href='Data%20Types/Double'>
       Double
     </a>
     
@@ -465,13 +472,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/Either'>
+    <a class='hover:underline truncate' title='Either' href='Data%20Types/Either'>
       Either
     </a>
     
@@ -503,13 +510,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/Int'>
+    <a class='hover:underline truncate' title='Int' href='Data%20Types/Int'>
       Int
     </a>
     
@@ -541,13 +548,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/List'>
+    <a class='hover:underline truncate' title='List' href='Data%20Types/List'>
       List
     </a>
     
@@ -579,13 +586,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/Maybe'>
+    <a class='hover:underline truncate' title='Maybe' href='Data%20Types/Maybe'>
       Maybe
     </a>
     
@@ -617,13 +624,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/Numeric'>
+    <a class='hover:underline truncate' title='Numeric' href='Data%20Types/Numeric'>
       Numeric
     </a>
     
@@ -655,13 +662,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Data%20Types/Primitive'>
+    <a class='hover:underline truncate' title='Primitive' href='Data%20Types/Primitive'>
       Primitive
     </a>
     
@@ -691,13 +698,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
         </path>
       </svg>
       
   
-    <a class='font-bold text-purple-600 hover:underline' href='Data%20Types/Tuple'>
+    <a class='font-bold text-purple-600 hover:underline truncate' title='Tuple' href='Data%20Types/Tuple'>
       Tuple
     </a>
     
@@ -732,13 +739,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='Haskell'>
+    <a class='hover:underline truncate' title='Haskell' href='Haskell'>
       Haskell
     </a>
     
@@ -770,13 +777,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='LICENSE'>
+    <a class='hover:underline truncate' title='LICENSE' href='LICENSE'>
       LICENSE
     </a>
     
@@ -808,12 +815,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Organizations'>
+    <a class='hover:underline truncate' title='Organizations' href='Organizations'>
       Organizations
     </a>
     
@@ -848,12 +855,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Packages'>
+    <a class='hover:underline truncate' title='Packages' href='Packages'>
       Packages
     </a>
     
@@ -888,12 +895,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='People'>
+    <a class='hover:underline truncate' title='People' href='People'>
       People
     </a>
     
@@ -928,13 +935,13 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg class='w-4 h-4 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
     
   
-    <a class='hover:underline' href='README'>
+    <a class='hover:underline truncate' title='README' href='README'>
       README
     </a>
     
@@ -966,12 +973,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Report'>
+    <a class='hover:underline truncate' title='Report' href='Report'>
       Report
     </a>
     
@@ -1006,12 +1013,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Syntax'>
+    <a class='hover:underline truncate' title='Syntax' href='Syntax'>
       Syntax
     </a>
     
@@ -1046,12 +1053,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Tools'>
+    <a class='hover:underline truncate' title='Tools' href='Tools'>
       Tools
     </a>
     
@@ -1086,12 +1093,12 @@ twindObserve.observe(document.documentElement)</script>
   <div class='flex items-center my-2 space-x-2 justify-left'>
     
     
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
         <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
       </svg>
     
   
-    <a class='hover:underline' href='Type%20Classes'>
+    <a class='hover:underline truncate' title='Type Classes' href='Type%20Classes'>
       Type Classes
     </a>
     
@@ -1110,14 +1117,15 @@ twindObserve.observe(document.documentElement)</script>
 </div>
             
           </div>
-        </div>
+        </nav>
         <!-- Main body column -->
         <div class='col-span-12 md:col-span-9'>
-          <div class='overflow-auto'>
-            <div class='py-0.5 text-sm'><pre class='hs language-hs'><code class='hs language-hs'>data (a, b)
+          <main>
+            <article class='overflow-auto'>
+              <div class='py-0.5 text-sm'><pre class='hs language-hs'><code class='hs language-hs'>data (a, b)
   = (a, b)</code></pre></div>
-          </div>
-          
+            </article>
+            
   <div class='p-4 mt-8 bg-gray-100 rounded'>
     <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
     <ul class='space-y-1'>
@@ -1136,22 +1144,21 @@ twindObserve.observe(document.documentElement)</script>
     </ul>
   </div>
 
+            
+  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+  </section>
 
-          <note-meta>
-            <div class='flex items-center justify-center mt-8 space-x-2 font-mono text-sm'>
-              <with var='tags'>
-                <a title='Tag' class='px-1 bg-gray-100 rounded'>
-                  <value></value>
-                </a>
-              </with>
-            </div>
-          </note-meta>
-
+          </main>
           <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
   <div class='flex space-x-2'>
     <div><a class='font-bold' href='@index'>@Index</a></div>
     <div>|</div>
-    <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a></div>
+    <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
+      0.1.0.1
+    </div>
+    <div>|</div>
+    <div><a class='font-bold' href='@tags'>@Tags</a></div>
   </div>
 </footer>
         </div>
