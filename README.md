@@ -1,3 +1,5 @@
+:warning: This project is not maintained anymore.
+
 This is a knowledge map about [[Haskell]], inspired by [[Kowainik]]'s [Haskell Knowledge Map][]. 
 
 You can browse this knowledge map at 
